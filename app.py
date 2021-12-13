@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 conn = psycopg2.connect(database="service_db",
                         user="postgres",
-                        password="mtuci",
+                        password="2003",
                         host="localhost",
                         port="5432")
 
